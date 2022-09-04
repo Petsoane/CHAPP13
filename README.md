@@ -5,9 +5,9 @@ A simple telegram chatbot the responds to with dad jokes
 
 simply clone this repo then run 
 
-~source ./CHAPPIE/bin/activate~ 
-~python -m pip install -r requirements.txt~
-~python app.py~
+_source ./CHAPPIE/bin/activate_
+_python -m pip install -r requirements.txt_
+_python app.py_
 
 # Requirements and outline
 
