@@ -7,6 +7,7 @@ simply clone this repo then run
 
 ~source ./CHAPPIE/bin/activate~ 
 ~python -m pip install -r requirements.txt~
+~python app.py~
 
 # Requirements and outline
 
