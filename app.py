@@ -1,7 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-# This program is dedicated to the public domain under the CC0 license.
-
 """
 Simple Bot to reply to Telegram messages.
 
@@ -32,12 +28,27 @@ logger = logging.getLogger(__name__)
 # context. Error handlers also receive the raised TelegramError object in error.
 def start(update, context):
     """Send a message when the command /start is issued."""
-    update.message.reply_text('Hi! this is a dad joke bot that sends jokes when u send hello')
+    msg = """
+    Hi! This is a dad joke bot that echos back every message sent to it
+    except the message 'hello'
+    I more features will be added as I learn how eacch api works.
+    I still need to find the best api for for the job as well.
+    """
+
+    update.message.reply_text(msg)
 
 
 def help(update, context):
     """Send a message when the command /help is issued."""
-    update.message.reply_text('Help! For now it only works responds to "hello", but later on it will have more')
+    msg = """
+    Hi! This is a dad joke bot that echos back every message sent to it
+    except the message 'hello'
+    I more features will be added as I learn how eacch api works.
+    I still need to find the best api for for the job as well.
+    """
+
+
+    update.message.reply_text(msg)
 
 
 def echo(update, context):
