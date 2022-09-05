@@ -84,7 +84,7 @@ def main():
                             port=PORT,
                             url_path="5750214131:AAE_lVnxeI690D4qweeUNHShgXMCTY4-Fxc")
     # updater.start_polling()
-    updater.bot.set_webhook("chapp13bot" + "5750214131:AAE_lVnxeI690D4qweeUNHShgXMCTY4-Fxc")
+    updater.bot.set_webhook("https://chapp13bot.herokuapp.com/" + "5750214131:AAE_lVnxeI690D4qweeUNHShgXMCTY4-Fxc")
     # Run the bot until you press Ctrl-C or the process receives SIGINT,
     # SIGTERM or SIGABRT. This should be used most of the time, since
     # start_polling() is non-blocking and will stop the bot gracefully.
